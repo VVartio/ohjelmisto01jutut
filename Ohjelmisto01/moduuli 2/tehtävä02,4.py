@@ -1,0 +1,6 @@
+number1 = float(input("ensimmäinen luku: "))
+number2 = float(input("toinen luku: "))
+number3 = float(input("kolmas luku: "))
+print("summa:", number1 + number2 + number3)
+print("tulo:", number1*number2*number3)
+print("keskiarvo:", (number1+number2+number3)/3)
