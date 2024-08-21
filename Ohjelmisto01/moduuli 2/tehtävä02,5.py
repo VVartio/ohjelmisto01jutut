@@ -7,4 +7,4 @@ leiviska = lemaara * 13.3 * 32 * 20
 yhteispaino = luoti + naula + leiviska
 kgpaino = yhteispaino // 1000
 gpaino = yhteispaino % 1000
-print(f'massa nykymittojen mukaan: \n{kgpaino} kilogrammaa ja {gpaino} grammaa')
+print(f'massa nykymittojen mukaan: \n{kgpaino:.0f} kilogrammaa ja {gpaino:.0f} grammaa')
